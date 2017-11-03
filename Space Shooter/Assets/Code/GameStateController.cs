@@ -30,7 +30,10 @@ namespace SpaceShooter.States
 		{
 			if (CurrentState.IsValidTargetState(targetStateType) == false)
 			{
-				return false;
+                Debug.Log(CurrentState);
+                Debug.Log(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+
+                return false;
 			}
 
 			GameStateBase state = GetStateByType(targetStateType);
