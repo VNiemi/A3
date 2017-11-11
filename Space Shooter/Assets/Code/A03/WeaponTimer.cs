@@ -32,10 +32,12 @@ namespace SpaceShooter
         // Update is called once per frame
         void Update()
         {
-            // Player and his weapons were destroyed. No more ower up.
+            // Player and his weapons were destroyed. No more power up.
             if(_secondWeapon == null)
             {
                 _time = 0;
+                _textMesh.text = "";
+
             }
 
             // Basic timer countdown.
