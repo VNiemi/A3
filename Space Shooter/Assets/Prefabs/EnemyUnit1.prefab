@@ -153,7 +153,7 @@ MonoBehaviour:
   _weaponPrefab: {fileID: 1155340762526610, guid: 014d4972fee096b41868b22da612436a,
     type: 2}
   _spawnChance: 49
-  _weaponChance: 100
+  _weaponChance: 49
   _displayPrefab: {fileID: 1405318370495630, guid: 7e7e0700d4e42e34886d6cd009b0ed9a,
     type: 2}
 --- !u!114 &114025459389001540
